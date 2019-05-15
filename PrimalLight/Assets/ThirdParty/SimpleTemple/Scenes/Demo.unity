@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657886, g: 0.49641234, b: 0.5748169, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -23723,6 +23723,7 @@ GameObject:
   - component: {fileID: 691685679}
   - component: {fileID: 691685678}
   - component: {fileID: 691685677}
+  - component: {fileID: 691685682}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -23810,6 +23811,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &691685682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691685676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52520da98764af86ea548191a3abf24e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraSensitivity: 90
+  climbSpeed: 4
+  normalMoveSpeed: 20
+  slowMoveFactor: 0.25
+  fastMoveFactor: 6
 --- !u!1001 &692004733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36497,10 +36515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d0d71238b38a4a38b35b955fbf5c019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placeUnder: 0
-  parentForPrefabs: {fileID: 0}
 --- !u!4 &1080835703
 Transform:
   m_ObjectHideFlags: 35
